@@ -1,0 +1,103 @@
+#metrocard_wrapper {
+	margin:auto;
+	background-color:rgba(0,0,0,0.6);
+	position:relative;
+	width:672px;
+	padding:1px;
+}
+
+#metrocard {
+	height:366px;
+	background:url("/images/yellow_card_bkg.png") no-repeat scroll 0 0 transparent;
+	padding:0 50px 15px;
+	margin:14px 11px 0px;
+	h2 {
+		color:#2b3cad;
+		font-size:22px;
+		line-height:1.4;
+		font-weight:600;
+		margin:0;
+		padding:26px 0px 0px;
+		text-align:center;
+	}
+
+	h3 {
+		color:#000;
+		font-family:Helvetica,Arial,sans-serif;
+		font-size:18px;
+		font-weight:normal;
+		letter-spacing:-0.5px;
+	}
+	p {
+		color:#000;
+		line-height:17px;
+		margin:10px 0 0;
+	}
+	#login, #request {
+		height:250px;
+		padding:10px;
+		width:243px;
+	}
+
+	#login {
+		float:left;
+	}
+
+	#request {
+		float:right;
+	}
+	form {
+		padding:5px 0 0;
+		label {
+			color:#000;
+			display:block;
+			font-family:Arial,sans-serif;
+			font-size:12px;
+			padding:0 0 3px;
+		}
+		input.text {
+			background:url("/images/login-input-bg.png") repeat scroll 0 0 transparent;
+/*			border:medium none;*/
+			border: 1px solid #313131;
+			color:#CCCCCC;
+			font-size:15px;
+			margin:0 0 10px;
+			padding:4px;
+			width:198px;
+		}
+		input.button{
+			padding:5px;
+		}
+	}
+	#remember-me {
+		background-image:none;
+		display:inline;
+		height:15px;
+		margin:0;
+		padding:0;
+		width:20px;
+	}
+
+	#requestFormLink {
+		position:relative;
+		background-image:url("/images/login-request-membership-button.gif");
+		height:34px;
+		margin-top:20px;
+		width:186px;
+	}
+	.linkButton {
+		background-repeat:no-repeat;
+		display:block;
+		overflow:hidden;
+		text-indent:-1000px;
+	}
+	fieldset {
+		border:medium none;
+	}
+	a#forgotPasswordLink {
+		display:block;
+		margin-top:10px;
+		color:#2b3cad;
+		text-decoration:underline;
+	}
+}

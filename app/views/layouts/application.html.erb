@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Artforge</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "jquery.min" %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+<div id="footer">
+	<div id="footer-left">
+		<ul>
+			<li>adam@artforge.com</li>
+			<li>646.479.7955</li>
+		</ul>
+	</div>
+	<div id="footer-right">
+		<p id="copyright">&copy; 1996 - 2011 Artforge Interactive Inc. All rights reserved.</p>
+	</div>
+</div>
+
+</body>
+</html>

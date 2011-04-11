@@ -1,0 +1,131 @@
+@import "core";
+@import "metrocard";
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+body{background:url(/images/bg.jpg) no-repeat 0 -250px;}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+/*#header {
+	position: fixed;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.70);
+	height:74px;
+	width:100%;
+	h1{
+		padding:7px;
+		a{
+			background:url("/images/logo.png") no-repeat scroll 0 0 transparent;
+			display:block;
+			height:55px;
+			text-indent:-9999px;
+			top:8px;
+			width:308px;
+			float:left;
+		}
+		.tag-line{
+			float:left;
+			color:#fff;
+			line-height:1.5em;
+			margin:4px 10px 0;
+			padding:5px 10px;
+			border-left:2px solid #fff;
+			font-size:14px;
+			height:40px;
+			vertical-align:middle;
+		}
+	}
+}*/
+
+#wrapper {
+	display: table;
+	width:100%;
+	height: 100%;
+}
+
+#body{
+	 display: table-cell;
+	vertical-align: middle;
+	width: 100%; 
+	height: 100%;
+}
+
+#center_stripe{
+	background:rgba(255, 255, 255,0.4);
+	text-align:center;
+	width: 100%; 
+	padding:5px 0 0;
+	border-top:15px solid rgba(0, 0, 0,0.75);
+	border-bottom:15px solid rgba(0, 0, 0,0.75);
+}
+
+#content{
+	width: 100%; 
+	height: 100%; 
+}
+
+#footer {
+	color:#999999;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.75);
+	border-top:1px solid #000000;
+	height:34px;
+	position:fixed;
+	width:100%;
+	bottom:0px;
+	ul {
+
+		font-size:11px;
+		height:10px;
+		margin:0;
+		padding:7px 5px;
+		li {
+			display:inline-block;
+			padding:5px 5px 0;
+			a {
+				color:#cccccc;
+				text-decoration:none;
+				text-transform:uppercase;
+			}
+		}
+	}
+}
+
+#footer-left {
+	float:left;
+}
+
+#footer-right {
+	float:right;
+}
+
+#copyright {
+/*	background:none repeat scroll 0 0 #111111;*/
+	font-size:11px;
+	height:23px;
+	margin:0;
+	padding:12px 10px 0 0;
+	text-align:right;
+}
+
+#login_flash{
+	position:relative;
+	width:672px;
+	margin:0px auto;
+}

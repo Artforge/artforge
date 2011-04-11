@@ -1,0 +1,54 @@
+@import "colors";
+@import "artforge";
+@import "corners";
+@import "buttons";
+
+* {
+	margin:0;
+	padding:0;
+}
+
+p{margin-bottom:5px;}
+
+body {
+	color:#515151;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+.bold{font-weight:700;}
+
+.pngfix {
+}
+
+
+a, a:link, a:visited {
+/*color:#F78C0D;*/
+text-decoration:none;
+}
+
+ul {
+	list-style:none outside none;
+}
+
+img {
+	border:medium none;
+}
+
+.fl {
+	float:left;
+}
+
+.fr {
+	float:right;
+}
+
+.clr{
+	clear:both;
+}
+
+.p5{padding:5px;}
