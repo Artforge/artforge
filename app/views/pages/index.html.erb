@@ -1,7 +1,23 @@
 <div id="wrapper">
-	<div id="body">
-	<div id="center_stripe">
-		<%= image_tag("logo_100px.png")%>
-	</div>
-	</div>
+    <div id="body">
+        <div id="center_stripe">
+            <%= image_tag("logo_100px.png", :id => "af_logo")%>
+        </div>
+        <div id="tagline">
+            Elegant Solutions for Complex Problems.
+        </div>
+        <div class="center">
+            <%= mail_to("adam@artforge.com","How can we help you?", :class => "large white button") %>
+        </div>
+    </div>
 </div>
+
+<script type="text/javascript">
+$(document).ready(function(){						   	
+	$('#af_logo').jrumble({
+		rangeX: 1,
+		rangeY: 1,
+		rangeRot: 1
+	});
+});
+</script>
